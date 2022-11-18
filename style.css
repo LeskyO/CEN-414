@@ -1,0 +1,374 @@
+body {
+margin : 0;
+padding : 0;
+text-align : left;
+font-family: var(--font-mono);
+background-size: cover;
+background-repeat: no-repeat;
+background : url(img/star-sky-space-stars-background-glitter-particles_160081-317.webp);
+color : #000;
+}
+			/*CONTAINER*/
+#wrapper
+{
+position : relative;
+width :900px;
+margin-right : auto;
+margin-left : auto;
+padding : 0;
+border : 0px solid rgb(179, 182, 14);
+background-color: #FFFfff;
+}
+			/*TOP TITLE BAR*/
+#title {
+width : 750px;
+margin-left : 5px;
+padding : 0;
+text-align : right;
+background : #fff;
+color : #000;
+}
+#title h1 {
+margin : 0;
+padding : 10px;
+font-size : 200%;
+text-transform : uppercase;
+letter-spacing : 5px;
+background : inherit;
+color : #e4e011;
+}
+			/*TOP NAVIGATION*/
+.container {
+width : 890px;
+height : 40px;
+margin : 20px 0 10px 5px;
+background-color: goldenrod;
+color:#FFFFCC;
+}
+  
+  /* Navbar links */
+.container a {
+	float: left;
+	text-align: center;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 150%;
+  }
+  
+  /* Navbar links on mouse-over */
+  .container a:hover {
+	background-color: #000;
+  }
+  
+  /* Current/active navbar link *
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+	.container a {
+	  float: none;
+	  display: block;
+	}
+  }
+
+#navCircle {
+margin : 0;
+padding : 0 0 20px 20px;
+
+}
+#navCircle li {
+margin : 0;
+padding : 0;
+display : inline;
+list-style-type : none;
+margin-top:5px;
+}
+#navCircle a:link, #navCircle a:visited {
+float : left;
+font-size : 1.3em;
+padding : 0 25px 15px 25px;
+text-decoration : none;
+background : inherit;
+color:#FFFFCC;
+margin-top:5px;
+}
+#navCircle a:link.active, #navCircle a:visited.active, #navCircle a:hover {
+background-color : inherit;
+color : #FFFFCC;
+
+}
+			/*MAIN CONTENT*/
+#content {
+width : 560px;
+float : left;
+margin-top : 0;
+margin-left : 0px;
+padding : 5px;
+border-right : 1px solid #b2d094;
+}
+#content p {
+padding : 10px;
+}
+			/*SIDEBAR*/
+#right-col {
+	width : 175px;
+	margin : 5px 0 0 590px;
+	border-left : 1px none #28460a;
+	padding : 3px;
+	}
+			/*FOOTER*/
+#footer {
+margin : 50px 0 0 0;
+padding : 5px;
+font : 90% "Trebuchet MS", verdana, arial, sans-serif;
+background : goldenrod;
+color : #fff;
+height: 40px;
+font-size: medium;
+}
+#footer a:link, #footer a:visited {
+background : inherit;
+color : whitesmoke;
+}
+#footer a:hover {
+background : inherit;
+color : #fff;
+text-decoration : none;
+}
+			/*SCROLLBAR*/
+div.scroll {
+height : 18em;
+width : 160px;
+padding : 1ex;
+margin : 0 0 30px 5px;
+border : 1px solid #345411;
+background : #BCE0A8;
+color : #000;
+	}
+			/*TYPOGRAPHY*/
+h2 {
+margin : 20px;
+font-size : 140%;
+
+letter-spacing : 3px;
+background : inherit;
+color : rgb(31, 23, 23);
+}
+h3 {
+margin : 5px;
+font-size : 120%;
+letter-spacing : 5px;
+background : inherit;
+color : rgb(31, 23, 23);
+}
+blockquote {
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
+			/*LINKS*/
+a img {
+border : none;
+}
+a:link, a:visited {
+text-decoration : none;
+background : inherit;
+color : #457C05;
+}
+a:hover {
+text-decoration : underline;
+background : inherit;
+color : #666;
+}
+ul.side {
+list-style-type : square;
+padding : 0;
+margin : 0;
+background : inherit;
+color : #457C05;
+}
+.side li {
+padding-left : 0.2em;
+margin-left : 2em;
+}
+			/*CLASSES*/
+.news {
+font-size : 90%;
+background : inherit;
+color : #000;
+}
+.imgleft {
+float : left;
+border : 1px solid #345411;
+padding : 5px;
+margin-right : 15px;
+}
+.imgright {
+float : right;
+border : 1px solid #345411;
+padding : 5px;
+margin-left : 15px;
+}
+
+#right{
+	display: block;
+	align-content: right;
+	float: right;
+	background-color: transparent ;
+    overflow: hidden;
+}
+
+tr{
+	position: absolute;
+	padding: 5px;
+	display: block;
+	border-radius: 10px;
+}
+
+table{
+	width: auto;
+	border-collapse: collapse  ;
+}
+
+.item{
+	border: 5px solid outset;
+	padding: 5px;
+	background-origin: padding-box;
+	box-shadow: #666;
+	border-radius: 28px;
+	display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    max-width: 270px;
+}
+
+.item:hover{
+	background: 2px solid transparent;
+	cursor: pointer;
+	background-color: #666;
+	padding: 10px;
+	box-shadow: 6px 4px 8px;
+}
+
+.imgtp{
+border : 1px solid transparent;
+border-radius: 25px;
+padding : 5px;
+margin-right : 15px;
+background-size: contain;
+}
+
+
+.product-image {
+	height: 155px;
+	width: 250px;
+	background-color: #FFF;
+}
+
+.clear-float {
+	clear: both;
+}
+
+.demo-input-box {
+	border-radius: 2px;
+	border: #CCC 1px solid;
+	padding: 2px 1px;
+}
+
+.tbl-cart {
+	font-size: 0.9em;
+}
+
+.tbl-cart th {
+	font-weight: normal;
+}
+
+.product-title {
+	margin-bottom: 20px;
+}
+
+.product-price {
+	float:left;
+}
+
+.product-quantity {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: #E0E0E0 1px solid;
+}
+
+.product-tile-footer {
+    padding: 15px 15px 0px 15px;
+    overflow: auto;
+}
+
+.cart-item-image {
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: #E0E0E0 1px solid;
+    padding: 5px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.no-records {
+	text-align: center;
+	clear: both;
+	margin: 38px 0px;
+}
+
+.contain{
+	position: relative;
+}
+
+#cartitem{
+    border-top: 1px solid grey;
+    padding-top: 1rem ;
+ }
+
+ .item-details{
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.addCart{
+  cursor: pointer;
+  color: white;
+  background-color: lightskyblue;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.item h4{
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+.item img {
+   height: 200px;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   width: 270px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    font-size: 20px;
+ }
+ 
+ header ul li:not(:first-child) {
+    padding-left: 10px;
+ }
+ 
+ header ul li:last-child {
+    margin-left: auto;
+ }
+ 
+ .cart-item{
+    border-top: 1px solid grey;
+    padding-top: 1rem ;
+ }

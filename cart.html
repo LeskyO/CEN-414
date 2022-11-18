@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+<title>Lamps4u</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+<div id="wrapper">
+  <div id="title">
+    <h1>LAMPS<span style="color: #1d291d;">4</span>US</h1>
+  </div>
+  <div class="container">
+    <ul id="navCircle">
+      <li><a class="active" href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+      <li><a href="cart.html"><i class="fa fa-fw fa-cart-plus"></i>Cart</a></li>
+      <li><a href="index.html"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+    </ul>
+    
+  </div>
+  <main style="display: flex; justify-content: space-between; padding: 2em 4em">
+    <!-- cart item  -->
+    <div style="flex: 0.7">
+       <h2>CART</h2>
+       <div id="cartItem"></div>
+    </div>
+
+    <!-- cart summary -->
+    <div
+       style="
+          border: 1px solid groove;
+          color: black;
+          background: white;
+          padding: 1em;
+          height: 150px;
+       "
+    >
+       <h2>CART SUMMARY</h2>
+       <h4 id="subtotal">Subtotal <span> </span></h4>
+    </div>
+ </main>
+</div>
+
+<div style="clear: both;"></div>
+<div id="footer"> <a href="http://www.free-css.com/">homepage</a> | <a href="http://www.free-css.com/">contact</a> |  <a href="http://www.free-css.com/">cart</a> </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
